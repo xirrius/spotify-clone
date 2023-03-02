@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify – Web Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="shortcut icon" href="/icons/spotify-icon.png" type="image/x-icon">
+</head>
+<body>
+    <section class="sidebar">
+        <img class="logo" src="/icons/logo.png" title="Spotify">
+        <ul class="nav">
+            <li class="active-nav-tab">
+                <i class="fa-sharp fa-solid fa-house"></i>
+                <p>Home</p>
+            </li>
+            <li class="nav-tab">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Search</p>
+            </li>
+            <li class="nav-tab">
+                <i class="fa-solid fa-music"></i>
+                <p>Your Library</p>
+            </li>
+            <br>
+            <li class="nav-tab">
+                <i class="fa-solid fa-square-plus"></i>
+                <p>Create Playlist</p>
+            </li>
+            <li class="nav-tab">
+                <img src="/images/liked-songs.jpeg">
+                <p>Liked Songs</p>
+            </li>
+        </ul>
+        
+        <ul class="playlists">
+            <li>Ballads International</li>
+            <li>Sad Beats</li>
+            <li>Workout Playlist</li>
+            <li>Ethereal Beats</li>
+            <li>Cinematic Chillout</li>
+            <li>Comfort Zone</li>
+            <li>The Z Collection</li>
+            <li>Fantasy Board Gaming</li>
+            <li>BTS Nostalgia</li>
+            <li>Renaissance Faire</li>
+        </ul>
+        <br>
+        <div class="install">
+            <i class="fa-regular fa-circle-down"></i>
+            <p>Install App</p>
+        </div>
+    </section>
+    <section class="main-section">
+        <header>
+            <div class="navigation">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="account-options">
+                <p title="Upgrade to Premium" id="premium">Get Premium</p>
+                <div title="Shreya">
+                    <i class="fa-solid fa-user" id="user"></i>
+                    <p>Shreya</p>
+                    <i class="fa-solid fa-caret-down" id="drop-down"></i>
+                </div>
+            </div>
+        </header>
+        <section class="content">
+            <h1>Good afternoon</h1>
+            <ul class="current-playlist">
+                <li>
+                    <img src="/images/playlist-1.jpg">
+                    <p>cozy melodies</p>
+                </li>
+                <li>
+                    <img src="/images/playlist-2.jfif">
+                    <p>lo-fi therapy</p>
+                </li>
+                <li>
+                    <img src="/images/playlist-3.jpg">
+                    <p>dancin' in the rain</p>
+                </li>
+                <li>
+                    <img src="/images/playlist-4.jpg">
+                    <p>dreamy realm</p>
+                </li>
+                <li>
+                    <img src="/images/playlist-5.jpg">
+                    <p>just divine</p>
+                </li>
+                <li>
+                    <img src="/images/playlist-6.png">
+                    <p>all classics in one playlist</p>
+                </li>
+            </ul>
+            <h2>Sad Songs</h2>
+            <ul class="sad-songs">
+                <li>
+                    <img src="/images/sad-playlist-1.jfif">
+                    <h4>Sad Covers</h4>
+                    <p>Acoustic covers of sad songs.</p>
+                </li>
+                <li>
+                    <img src="/images/sad-playlist-2.jfif">
+                    <h4>Sad Hour</h4>
+                    <p>Somehow heartbreak feels good in a place like this.</p>
+                </li>
+                <li>
+                    <img src="/images/sad-playlist-3.jfif">
+                    <h4>Life Sucks</h4>
+                    <p>Having a bad day? We know how it feels!</p>
+                </li>
+                <li>
+                    <img src="/images/sad-playlist-4.jfif">
+                    <h4>Sad Beats</h4>
+                    <p>Electronic melancholy.</p>
+                </li>
+                <li>
+                    <img src="/images/sad-playlist-5.jfif">
+                    <h4>Sad Piano</h4>
+                    <p>Give yourself a break, cry it out, take comfort in these sad piano songs.</p>
+                </li>
+            </ul>
+            <h2>Popular Artists</h2>
+            <ul class="fav-artist">
+                <li>
+                    <img src="/images/fav-artist-1.jfif">
+                    <h4>The Weeknd</h4>
+                    <p>Artist</p>
+                </li>
+                <li>
+                    <img src="/images/fav-artist-2.jfif">
+                    <h4>BTS</h4>
+                    <p>Artist</p>
+                </li>
+                <li>
+                    <img src="/images/fav-artist-3.jfif">
+                    <h4>ZAYN</h4>
+                    <p>Artist</p>
+                </li>
+                <li>
+                    <img src="/images/fav-artist-4.jfif">
+                    <h4>Beyoncé</h4>
+                    <p>Artist</p>
+                </li>
+                <li>
+                    <img src="/images/fav-artist-5.jfif">
+                    <h4>A. R. Rahman</h4>
+                    <p>Artist</p>
+                </li>
+            </ul>
+            <h2>Recommended for today</h2>
+            <ul class="recommendations">
+                <li>
+                    <img src="/images/album-1.webp">
+                    <h4>Indigo</h4>
+                    <p>RM</p>
+                </li>
+                <li>
+                    <img src="/images/album-2.png">
+                    <h4>Icarus Falls</h4>
+                    <p>ZAYN</p>
+                </li>
+                <li>
+                    <img src="/images/album-3.png">
+                    <h4>Black Swan</h4>
+                    <p>BTS</p>
+                </li>
+                <li>
+                    <img src="/images/album-4.jpg">
+                    <h4>Камин (feat. JONY)</h4>
+                    <p>EMIN</p>
+                </li>
+                <li>
+                    <img src="/images/album-5.png">
+                    <h4>The Search</h4>
+                    <p>NF</p>
+                </li>
+            </ul>
+            <hr>
+        </section>
+    </section>
+    <section class="player">
+        <div class="song">
+            <img src="/images/song-cover.jpg">
+            <div class="details">
+                <p class="name">Unstoppable</p>
+                <p class="artist">Sia</p>
+            </div>
+            <i class="fa-solid fa-heart" title="Remove from Your Llibrary"></i>
+        </div>
+        <div class="track">
+            <div class="buttons">
+                <i class="fa-solid fa-shuffle" title="Enable Shuffle"></i>
+                <i class="fa-solid fa-backward-step small" title="Previous"></i>
+                <i class="fa-sharp fa-solid fa-circle-play big" title="Play"></i>
+                <i class="fa-solid fa-forward-step small" title="Next"></i>
+                <i class="fa-solid fa-repeat" title="Enable Repeat"></i>
+            </div>
+            <div class="line">
+                <p>0:00</p>
+                <input type="range">
+                <p>3:37</p>
+            </div>
+        </div>
+        <div class="options">
+            <i class="fa-solid fa-bars" title="Queue"></i>
+            <i class="fa-solid fa-tv" title="Connect to a device"></i>
+            <i class="fa-solid fa-volume-high" title="Mute"></i>
+        </div>
+    </section>  
+</body>
+</html>

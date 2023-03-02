@@ -1,0 +1,26 @@
+ICONS
+
+SECTION: SIDEBAR
+home : <i class="fa-sharp fa-solid fa-house"></i>
+search : <i class="fa-solid fa-magnifying-glass"></i>
+library : <i class="fa-solid fa-list-music"></i>
+create plalist : <i class="fa-solid fa-square-plus"></i>
+install app : <i class="fa-regular fa-circle-arrow-down"></i>
+
+SECTION: PLAYER
+play : <i class="fa-sharp fa-solid fa-circle-play"></i>
+backward : <i class="fa-solid fa-backward-step"></i>
+forward : <i class="fa-solid fa-forward-step"></i>
+shuffle : <i class="fa-regular fa-shuffle"></i>
+like : <i class="fa-solid fa-heart"></i>
+repeat : <i class="fa-solid fa-repeat"></i>
+queue : <i class="fa-solid fa-bars"></i>
+volume : <i class="fa-solid fa-volume"></i>
+connect to device : <i class="fa-solid fa-computer-speaker"></i>
+picture in picture : <i class="fa-regular fa-rectangle-wide"></i>
+
+SECTION: MAIN_SECTION
+arrow-right : <i class="fa-solid fa-arrow-right"></i>
+arrow-left : <i class="fa-solid fa-arrow-left"></i>
+play : <i class="fa-sharp fa-solid fa-play"></i>
+drop-down : <i class="fa-solid fa-caret-down"></i>
